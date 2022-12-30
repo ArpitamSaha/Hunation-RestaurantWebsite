@@ -15,7 +15,7 @@ function Carousel() {
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                 aria-label="Slide 3"></button>
         </div>
-        <div className="carousel-inner" style={{height: "49.5rem"}}>
+        <div className="carousel-inner" >
             <div className="carousel-item active">
                 <img src={image1} className="d-block w-100 " alt="First Page"/>
             </div>

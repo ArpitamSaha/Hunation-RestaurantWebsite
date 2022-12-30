@@ -7,9 +7,9 @@ import special from './images/Special.jpeg'
 function Cards() {
   return (
     <>
-    <div className="container text-center py-5">
+    <div className="container text-center">
       <div className="row">
-        <div className="col-md-2 mx-5 rounded" >
+        <div className="col-3-md-2" >
           <h3>Beverages</h3>
           <div className="food">
             <img src={beverage} alt="" className="rounded-circle lazyload py-3 px-1" style={{width:"200px" , height:"220px"}}/>
@@ -19,7 +19,7 @@ function Cards() {
             <a href="/" className="btn btn-outline-dark" role="button">BEVERAGES MENU</a>
           </div>
         </div>
-        <div className="col-md-2 mx-5 rounded">
+        <div className="col-3-md-2">
           <h3>Food</h3>
           <div className="food">
             <img src={food} alt="" className="rounded-circle lazyload py-3 px-1" style={{width:"200px" , height:"220px"}}/>
@@ -29,7 +29,7 @@ function Cards() {
             <a href="/" className="btn btn-outline-dark" role="button">FOOD MENU</a>
           </div>
         </div>
-        <div className="col-md-2 mx-5 rounded" >
+        <div className="col-3-md-2" >
           <h3>Desserts</h3>
           <div className="food">
             <img src={desserts} alt="" className="rounded-circle lazyload py-3 px-1" style={{width:"200px" , height:"220px"}}/>
@@ -39,7 +39,7 @@ function Cards() {
             <a href="/" className="btn btn-outline-dark" role="button">DESSERTS MENU</a>
           </div>
         </div>
-        <div className="col-md-2 mx-5 rounded" >
+        <div className="col-3-md-2" >
           <h3>Our Special</h3>
           <div className="food" >
             <img src={special} alt="" className="rounded-circle lazyload py-3 px-1" style={{width:"200px" , height:"220px"}}/>
