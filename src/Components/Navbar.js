@@ -12,7 +12,7 @@ function Navbar() {
                     </button>
                     <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel" style={{backgroundColor:"#6D8299"}}>
                         <div className="offcanvas-header">
-                            <h5 className="offcanvas-title fw-bolder" id="offcanvasDarkNavbarLabel">HUNATION</h5>
+                            <h5 className="offcanvas-title fw-bolder" id="offcanvasDarkNavbarLabel" style={{fontFamily:" Monoton, cursive"}}>HUNATION</h5>
                             <button type="button" className="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div className="offcanvas-body">
