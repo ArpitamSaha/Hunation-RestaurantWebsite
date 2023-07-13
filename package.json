@@ -1,5 +1,5 @@
 {
-  "homepage": "hunation-the-hungry-nation.vercel.app",
+  "homepage": "https://hunation-the-hungry-nation.vercel.app/",
   "name": "hunation",
   "version": "0.1.0",
   "private": true,
@@ -11,8 +11,6 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "browserslist": "^4.21.9",
-    "caniuse-lite": "^1.0.30001515",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -46,5 +44,10 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
